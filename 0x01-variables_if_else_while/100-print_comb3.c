@@ -14,9 +14,9 @@ int main(void)
 {
 	int m, n;
 
-	for (m = '0'; m <= '9')
+	for (m = '0'; m <= '9'; m++)
 	{
-		for (n = '0'; n <= '9')
+		for (n = '0'; n <= '9'; n++)
 		{
 			if (m != n && m < n)
 			{
